@@ -131,7 +131,7 @@ $("body").on("click",".edit-item",function(){
 $(".crud-submit-edit").click(function(e){
     e.preventDefault();
 
-    $('#validation-errors').html('');
+    $('#validation-errorss').html('');
 
     var form_action = $("#edit-item").find("form").attr("action");
     var name = $("#edit-item").find("input[name='name']").val();
