@@ -7,7 +7,7 @@
             </div>
 
             <div class="modal-body">
-                <div id="validation-errors">
+                <div id="validation-errorss">
 
                 </div>
                 <form method="PUT" action="/item-ajax/14" >
