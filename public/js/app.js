@@ -154,7 +154,7 @@ $(".crud-submit-edit").click(function(e){
     }).fail(function (error) {
         if (error.status == 422){
             $.each(error.responseJSON.errors, function(key,value) {
-                $('#validation-errors').append('<li style="background-color: #d9534f; color: white;">'+value+'</li>');
+                $('#validation-errorss').append('<li style="background-color: #d9534f; color: white;">'+value+'</li>');
             });
         }
     });
